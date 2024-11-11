@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E2CFEA; 
-  line-height: 1.6;
+  line-height: 1.5;
   color: #102B3F; 
 }
 
@@ -12,7 +12,7 @@ body {
 #main-header {
   background-color: #A06CD5; 
   color: #fff; 
-  padding: 20px;
+  padding: 22px;
   text-align: center;
 }
 
@@ -22,9 +22,9 @@ nav {
   top: 0;
   background-color: #6247AA; 
   color: #fff;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
-  border-bottom: 2px solid #102B3F; 
+  border-bottom: 3px solid #102B3F; 
 }
 
 nav ul {
@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 17px;
 }
 
 nav ul li a {
@@ -48,13 +48,13 @@ nav ul li a {
 .sidebar {
   background-color: #6247AA; 
   color: #fff;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 17px;
+  border-radius: 9px;
 }
 
 
 p {
-  margin: 10px 0;
+  margin: 12px 0;
   color: #102B3F;
 }
 
@@ -64,10 +64,10 @@ h1, h2, h3, h4 {
 }
 
 
-.container-two-column {
+.the-container-two-col {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  gap: 22px;
+  padding: 22px;
 }
 
 .main-content {
@@ -79,29 +79,29 @@ h1, h2, h3, h4 {
 }
 
 
-.container-three-column {
+.the-container-three-col {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  gap: 22px;
+  padding: 22px;
 }
 
-.column-left, .column-right {
-  flex: 1;
+.col-one, .col-three {
+  flex: 2;
   background-color: #6247AA;
   color: #fff;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 17px;
+  border-radius: 10px;
 }
 
-.column-middle {
+.col-two {
   flex: 3;
-  padding: 10px;
+  padding: 12px;
 }
 
 
 .floated-image {
   float: left;
-  margin: 0 20px 10px 0;
+  margin: 0 22px 12px 0;
   border-radius: 5px;
 }
 
@@ -109,9 +109,9 @@ h1, h2, h3, h4 {
 form {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  max-width: 600px;
-  margin: 20px auto;
+  gap: 12px;
+  max-width: 620px;
+  margin: 22px auto;
 }
 
 form label {
@@ -126,20 +126,19 @@ form input[type="email"],
 form select,
 form textarea {
   flex: 1;
-  padding: 8px;
-  margin-bottom: 15px;
+  padding: 10px;
+  margin-bottom: 17px;
   color: #102B3F;
   background-color: #fff;
   border: 1px solid #A06CD5; 
   border-radius: 5px;
 }
 
-/* Button Styling */
 button[type="submit"],
 button {
   background-color: #062726; 
   color: #fff;
-  padding: 10px 20px;
+  padding: 12px 22px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -150,4 +149,23 @@ button {
 button[type="submit"]:hover,
 button:hover {
   background-color: #102B3F; 
+}
+
+
+.floated-image {
+  float: left;
+  margin: 0 22px 12px 0;
+  width: 1000px; 
+}
+
+.floated-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.floated-image figcaption {
+  font-size: 0.95em;
+  color: #102B3F; 
+  text-align: center;
+  margin-top: 5px;
 }
