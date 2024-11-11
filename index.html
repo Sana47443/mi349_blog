@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sahana's Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header id="main-header">
     <h1>Sahana's Blog</h1>
     <p>Musings about design and slow web</p>
   </header>
+  
   <nav>
     <ul>
       <li><a href="index.html">Blog</a></li>
@@ -17,19 +19,17 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  <section>
-    <h2>Blog Posts</h2>
-    <article>
-      <header>
-        <h3>Why Dubai Will Always Be Amazing</h3>
-        <p><time datetime="2024-10-13">October 13, 2024</time> by Sahana Balaji</p>
-    </header>
-      <img src="images/dubai.jpg" alt="Dubai at night">
-      <p>Dubai – what can I say? It's my hometown, and honestly, there's no place like it. You can’t help but be amazed at how this city blends tradition with futuristic innovation. One moment you’re wandering through the vibrant souks, catching the rich scent of spices, and the next, you’re looking up at the world’s tallest skyscraper, the Burj Khalifa. It’s crazy to think how far Dubai has come in just a few decades.<br>
-
-        The energy here is unmatched – it’s a place where anything seems possible. Whether you’re into shopping, beach days, dune bashing, or simply admiring the architectural wonders, there’s something for everyone. The best part? You can be sunbathing by the Arabian Gulf in the morning and hitting the ski slopes at Mall of the Emirates in the afternoon. How cool is that?<br>
-        
-        But beyond the glitz and glam, it’s the community and culture that make Dubai special. It's a melting pot of people from all around the world, yet it stays deeply rooted in Emirati traditions. The call to prayer at sunset, the hospitality, and the sense of pride – these are things you can’t replicate anywhere else. Dubai is home, and no matter where life takes me, it will always have a special place in my heart.
+  
+  <div class="container-two-column">
+    <section>
+      <h2>Blog Posts</h2>
+      <article>
+        <header>
+          <h3>Why Dubai Will Always Be Amazing</h3>
+          <p><time datetime="2024-10-13">October 13, 2024</time> by Sahana Balaji</p>
+        </header>
+        <img src="images/dubai.jpg" alt="Dubai at night" class="floated-image">
+        <p>Dubai – what can I say? It's my hometown, and honestly, there's no place like it... 
         </p>
         <table>
           <caption>Interesting Dubai Facts</caption>
@@ -58,32 +58,18 @@
             </tr>
           </tbody>
         </table>
-    </article>
-    <article>
-      <header>
-        <h3>The Struggles of an International Student</h3>
-        <p><time datetime="2024-10-13">October 13, 2024</time> by Sahana Balaji</p>
-    </header>
-    <img src="images/international_students.jpg" alt="Struggles faced by international students">
-    <p>
-      Being an international student sounds exciting, right? New country, new friends, and fresh opportunities. But what people don’t talk about enough is how challenging it can be. Moving halfway across the world for your education is no small feat. Homesickness hits hard, especially when you're miles away from the people and places that feel like home. <br>
-
-You miss everything – from the smell of home-cooked meals to the familiar sounds of your neighborhood. Video calls help, but they can’t replace the comfort of actually being there. And then there’s the culture shock. Even if you speak the language fluently, adapting to new customs, different social dynamics, and sometimes extreme weather can be tough.<br>
-
-The academic pressure can also be overwhelming, especially when you're trying to balance it with making friends, adjusting to a new way of life, and just surviving on your own. But in all that struggle, there’s growth. You become more independent, resilient, and open to the world. You learn to appreciate both where you’re from and where you are.<br>
-
-Still, some days are harder than others. On those days, you just want to pack up and fly home. But deep down, you know you’re on a journey that’s shaping who you are in ways you can’t even imagine yet.
-    </p>
-    </article>
-  </section>
-  <section>
-    <h4>Sign up for our Newsletter</h4>
-    <form>
-      <label>Email address:
-       <input type="text">
-      </label>
-      <button>Subscribe</button>
-    </form>
-  </section>
+      </article>
+    </section>
+    
+    <section class="sidebar">
+      <h4>Sign up for our Newsletter</h4>
+      <form>
+        <label>Email address:
+          <input type="text">
+        </label>
+        <button>Subscribe</button>
+      </form>
+    </section>
+  </div>
 </body>
 </html>
